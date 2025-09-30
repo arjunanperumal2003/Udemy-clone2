@@ -1,0 +1,170 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gabarito", sans-serif;
+
+}
+body
+{
+  margin: 5px;
+}
+.navbar{
+    display: flex;
+justify-content: space-between; 
+border-bottom: solid black 1px;
+padding: 10px;
+gap: 10px;
+align-items: center;
+position: sticky;
+top: 0;
+background-color: white;
+z-index: 2;
+}
+.navbar-title h1{
+    color: #A435F0;
+    align-items: center;
+}
+.navbar-search{
+    display: flex;
+    padding: 10px;
+    border: black 1px solid;
+    border-radius: 30px;
+    width: 60%;
+    gap: 10px;
+    align-items: center;
+
+
+}
+.navbar-search input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+}
+.navbar-search input:focus{
+  outline: none;
+}
+.navbar-icons{
+    display: flex;
+   justify-content: space-between; 
+   gap: 10px;
+   align-items: center;
+}
+.categories
+{
+   flex-wrap: wrap;
+    padding : 10px;
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: space-around;
+}
+.categories p{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #A435F0;
+ 
+}
+.image
+{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+.image-s1{
+    width: 100%;
+}
+.corsecard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+.corse-1,.corse-2,.corse-3,.corse-4{
+    width: 300px;
+    height: 400px;
+}
+.corse-1 img,.corse-2 img,.corse-3 img,.corse-4 img{
+    width: 300px;
+    height: 150px;
+}
+.topic{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 10px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+.topic p{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border: black 1px solid;
+    flex-basis: 25%;
+    flex-grow: 1;
+  
+}
+.popular{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.popular div{
+      width: 300px;
+    height: 400px;
+
+    margin: 10px;
+}
+.table1{
+   
+    background-color: black;
+    color: white;
+   
+    padding: 30px;
+}
+.tab1{
+    display: flex;
+    gap :15px
+}
+.tab1 p{
+    margin: 20px;
+
+}
+.table2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+
+} 
+.flash{
+    background-color: white;
+    position: absolute;
+    border: black 2px solid;
+    bottom: 40px;
+    left: 30px;
+    padding: 30px;
+    
+}
+.mylearn{
+    position: relative;
+}
+.mylearn--box{
+    position: absolute;
+    background-color: white;
+    border: black 1px solid;
+    padding: 10px;
+    width: 100px;
+    margin-top: 10px;
+    right: 0;
+    display: none;
+}
+.mylearn:hover .mylearn--box{
+    display: block;
+}
